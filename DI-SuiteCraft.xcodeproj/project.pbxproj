@@ -11,8 +11,15 @@
 		0871FD2B2A79F6910069AC6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD2A2A79F6910069AC6C /* ContentView.swift */; };
 		0871FD2D2A79F6920069AC6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0871FD2C2A79F6920069AC6C /* Assets.xcassets */; };
 		0871FD312A79F6920069AC6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0871FD302A79F6920069AC6C /* Preview Assets.xcassets */; };
-		0871FD3B2A79F6920069AC6C /* DI_SuiteCraftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD3A2A79F6920069AC6C /* DI_SuiteCraftTests.swift */; };
 		0871FD582A79F8EC0069AC6C /* SignupWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD572A79F8EC0069AC6C /* SignupWebService.swift */; };
+		0871FD5B2A79FAA40069AC6C /* SignupError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD5A2A79FAA40069AC6C /* SignupError.swift */; };
+		0871FD5D2A79FBCE0069AC6C /* SignupFormRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD5C2A79FBCE0069AC6C /* SignupFormRequestModel.swift */; };
+		0871FD5F2A79FDEE0069AC6C /* SignupResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD5E2A79FDEE0069AC6C /* SignupResponseModel.swift */; };
+		0871FD612A79FE260069AC6C /* SignupFormModelValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD602A79FE260069AC6C /* SignupFormModelValidator.swift */; };
+		0871FD632A79FE820069AC6C /* SignupConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD622A79FE820069AC6C /* SignupConstants.swift */; };
+		0871FD672A7A04460069AC6C /* SignupFormModelValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD642A7A032E0069AC6C /* SignupFormModelValidatorTests.swift */; };
+		0871FD6D2A7A07A00069AC6C /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD6C2A7A07A00069AC6C /* MockURLProtocol.swift */; };
+		0871FD6F2A7A08D90069AC6C /* SignupWebServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871FD6E2A7A08D90069AC6C /* SignupWebServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +47,16 @@
 		0871FD2E2A79F6920069AC6C /* DI_SuiteCraft.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DI_SuiteCraft.entitlements; sourceTree = "<group>"; };
 		0871FD302A79F6920069AC6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0871FD362A79F6920069AC6C /* DI-SuiteCraftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DI-SuiteCraftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0871FD3A2A79F6920069AC6C /* DI_SuiteCraftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI_SuiteCraftTests.swift; sourceTree = "<group>"; };
 		0871FD402A79F6920069AC6C /* DI-SuiteCraftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DI-SuiteCraftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0871FD572A79F8EC0069AC6C /* SignupWebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebService.swift; sourceTree = "<group>"; };
+		0871FD5A2A79FAA40069AC6C /* SignupError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupError.swift; sourceTree = "<group>"; };
+		0871FD5C2A79FBCE0069AC6C /* SignupFormRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormRequestModel.swift; sourceTree = "<group>"; };
+		0871FD5E2A79FDEE0069AC6C /* SignupResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResponseModel.swift; sourceTree = "<group>"; };
+		0871FD602A79FE260069AC6C /* SignupFormModelValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidator.swift; sourceTree = "<group>"; };
+		0871FD622A79FE820069AC6C /* SignupConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupConstants.swift; sourceTree = "<group>"; };
+		0871FD642A7A032E0069AC6C /* SignupFormModelValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupFormModelValidatorTests.swift; sourceTree = "<group>"; };
+		0871FD6C2A7A07A00069AC6C /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
+		0871FD6E2A7A08D90069AC6C /* SignupWebServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupWebServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +126,8 @@
 		0871FD392A79F6920069AC6C /* DI-SuiteCraftTests */ = {
 			isa = PBXGroup;
 			children = (
-				0871FD3A2A79F6920069AC6C /* DI_SuiteCraftTests.swift */,
+				0871FD692A7A07560069AC6C /* NetworkTests */,
+				0871FD682A7A073E0069AC6C /* ModelTests */,
 			);
 			path = "DI-SuiteCraftTests";
 			sourceTree = "<group>";
@@ -146,8 +161,30 @@
 		0871FD562A79F8D70069AC6C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0871FD5A2A79FAA40069AC6C /* SignupError.swift */,
+				0871FD5C2A79FBCE0069AC6C /* SignupFormRequestModel.swift */,
+				0871FD5E2A79FDEE0069AC6C /* SignupResponseModel.swift */,
+				0871FD602A79FE260069AC6C /* SignupFormModelValidator.swift */,
+				0871FD622A79FE820069AC6C /* SignupConstants.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		0871FD682A7A073E0069AC6C /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				0871FD642A7A032E0069AC6C /* SignupFormModelValidatorTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		0871FD692A7A07560069AC6C /* NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				0871FD6C2A7A07A00069AC6C /* MockURLProtocol.swift */,
+				0871FD6E2A7A08D90069AC6C /* SignupWebServiceTests.swift */,
+			);
+			path = NetworkTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +258,7 @@
 					};
 					0871FD352A79F6920069AC6C = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 						TestTargetID = 0871FD242A79F6910069AC6C;
 					};
 					0871FD3F2A79F6920069AC6C = {
@@ -280,8 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0871FD5B2A79FAA40069AC6C /* SignupError.swift in Sources */,
 				0871FD2B2A79F6910069AC6C /* ContentView.swift in Sources */,
 				0871FD582A79F8EC0069AC6C /* SignupWebService.swift in Sources */,
+				0871FD632A79FE820069AC6C /* SignupConstants.swift in Sources */,
+				0871FD612A79FE260069AC6C /* SignupFormModelValidator.swift in Sources */,
+				0871FD5D2A79FBCE0069AC6C /* SignupFormRequestModel.swift in Sources */,
+				0871FD5F2A79FDEE0069AC6C /* SignupResponseModel.swift in Sources */,
 				0871FD292A79F6910069AC6C /* DI_SuiteCraftApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,7 +333,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0871FD3B2A79F6920069AC6C /* DI_SuiteCraftTests.swift in Sources */,
+				0871FD6F2A7A08D90069AC6C /* SignupWebServiceTests.swift in Sources */,
+				0871FD672A7A04460069AC6C /* SignupFormModelValidatorTests.swift in Sources */,
+				0871FD6D2A7A07A00069AC6C /* MockURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +554,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25DZPJJA4Y;
@@ -521,6 +567,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DI-SuiteCraft.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DI-SuiteCraft";
@@ -532,6 +579,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25DZPJJA4Y;
