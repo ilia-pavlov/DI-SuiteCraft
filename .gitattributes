@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
+# Handle line endings
 * text=auto
+
+# Treat specific files as binary
+*.png binary
+*.jpg binary
+*.gif binary
+*.pdf binary
