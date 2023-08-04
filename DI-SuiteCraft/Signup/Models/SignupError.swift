@@ -12,6 +12,7 @@ enum SignupError: LocalizedError, Equatable, Error {
     case invalidRequestURL
     case failedRequest(description: String)
     
+    /// `LocalizedError` give ability to call `errorDescription`
     var errorDescription: String? {
         switch self {
         case .failedRequest(let description):

@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		082DE3C32A7C96EA00748959 /* DI-SuiteCraftTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = "DI-SuiteCraftTests.xctestplan"; sourceTree = "<group>"; };
 		0871FD252A79F6910069AC6C /* DI-SuiteCraft.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DI-SuiteCraft.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0871FD282A79F6910069AC6C /* DI_SuiteCraftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI_SuiteCraftApp.swift; sourceTree = "<group>"; };
 		0871FD2A2A79F6910069AC6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 		0871FD1C2A79F6910069AC6C = {
 			isa = PBXGroup;
 			children = (
+				082DE3C32A7C96EA00748959 /* DI-SuiteCraftTests.xctestplan */,
 				0871FD272A79F6910069AC6C /* DI-SuiteCraft */,
 				0871FD392A79F6920069AC6C /* DI-SuiteCraftTests */,
 				0871FD262A79F6910069AC6C /* Products */,

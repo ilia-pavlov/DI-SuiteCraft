@@ -20,7 +20,17 @@ class MockURLProtocol: URLProtocol {
     }
     
     override func startLoading() {
-        self.client?.urlProtocol(self, didLoad: MockURLProtocol.stubResponseData ?? Data())
+        if let requestError = MockURLProtocol.error {
+            if let errorDescription = (requestError as? LocalizedError)?.errorDescription {
+                let nsError = NSError(domain: "MockURLProtocol", code: 1,
+                                      userInfo: [NSLocalizedDescriptionKey: errorDescription])
+                self.client?.urlProtocol(self, didFailWithError: nsError)
+            }
+        } else {
+            self.client?.urlProtocol(self, didLoad: MockURLProtocol.stubResponseData ?? Data())
+            
+        }
+        
         self.client?.urlProtocolDidFinishLoading(self)
     }
     

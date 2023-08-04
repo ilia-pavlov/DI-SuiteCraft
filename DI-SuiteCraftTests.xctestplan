@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "15C487C8-CB0B-4EEF-8465-DF251D5A61BD",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:DI-SuiteCraft.xcodeproj",
+          "identifier" : "0871FD242A79F6910069AC6C",
+          "name" : "DI-SuiteCraft"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DI-SuiteCraft.xcodeproj",
+      "identifier" : "0871FD242A79F6910069AC6C",
+      "name" : "DI-SuiteCraft"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DI-SuiteCraft.xcodeproj",
+        "identifier" : "0871FD352A79F6920069AC6C",
+        "name" : "DI-SuiteCraftTests"
+      }
+    }
+  ],
+  "version" : 1
+}
