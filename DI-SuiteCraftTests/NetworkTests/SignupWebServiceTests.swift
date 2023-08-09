@@ -19,7 +19,7 @@ class SignupWebServiceTests: XCTestCase {
         let urlMockSession = URLSession(configuration: config)
         
         sut = SignupWebService(urlSession: urlMockSession,
-                               urlString: SignupMockUrl.signupURLString.value)
+                               urlString: SignupUrl.signupURLString.value)
         
         signupFormRequestMockModel = SignupFormRequestModel(firstName: "Bob",
                                                             lastName: "Dylan",

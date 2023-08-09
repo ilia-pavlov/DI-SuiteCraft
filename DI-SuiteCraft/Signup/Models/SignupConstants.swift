@@ -18,7 +18,7 @@ struct SignupConstants {
     static let passwordMaxChars = 11
 }
 
-enum SignupMockUrl {
+enum SignupUrl {
     case signupURLString
     
     var value: String {
