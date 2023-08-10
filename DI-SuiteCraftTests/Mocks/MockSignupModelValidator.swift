@@ -8,7 +8,7 @@
 import Foundation
 @testable import DI_SuiteCraft
 
-class MockSignupModelValidator: SignupModelValidatorProtocol {
+class MockSignupModelValidator: SignupFormModelValidatorProtocol {
     var isFirstNameValidated: Bool = false
     var isLastNameValidated: Bool = false
     var isEmailValidated: Bool = false

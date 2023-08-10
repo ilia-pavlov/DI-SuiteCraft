@@ -8,7 +8,7 @@
 import Foundation
 
 protocol SignupPresenterProtocol: AnyObject {
-    init(formModelValidator: SignupModelValidatorProtocol,
+    init(formModelValidator: SignupFormModelValidatorProtocol,
          webService: SignupWebServiceProtocol,
          delegate: SignupViewDelegateProtocol)
     

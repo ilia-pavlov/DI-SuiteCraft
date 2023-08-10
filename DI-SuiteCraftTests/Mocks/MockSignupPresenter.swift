@@ -11,7 +11,7 @@ import Foundation
 class MockSignupPresenter: SignupPresenterProtocol {
     var processUserSignupCalled: Bool = false
     
-    required init(formModelValidator: DI_SuiteCraft.SignupModelValidatorProtocol,
+    required init(formModelValidator: DI_SuiteCraft.SignupFormModelValidatorProtocol,
                   webService: DI_SuiteCraft.SignupWebServiceProtocol,
                   delegate: DI_SuiteCraft.SignupViewDelegateProtocol) {
         // TODO:
