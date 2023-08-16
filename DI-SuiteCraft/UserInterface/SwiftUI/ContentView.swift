@@ -9,13 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            VStack {
+                UIKitViewControllerWrapper()
+                    .edgesIgnoringSafeArea(.all) // Adjust as needed
+                NavigationLink(destination: StartView()) {
+                    Text("Create an account")
+                        .padding()
+                }
+                .padding(.bottom)
+            }
         }
-        .padding()
+    }
+}
+
+struct StartView: View {
+    var body: some View {
+        Text("Start Screen")
+            .navigationBarTitle("Start", displayMode: .inline)
     }
 }
 
